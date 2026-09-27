@@ -1,0 +1,302 @@
+{
+ "real": {
+  "n": 20,
+  "survival_mean": 53.34142857142857,
+  "survival_ci": [
+   49.72539285714286,
+   56.77717857142858
+  ],
+  "kills_mean": 12.1,
+  "kills_ci": [
+   11.0,
+   13.2
+  ],
+  "attack_frac": 0.9371702509440532,
+  "died_frac": 0.5
+ },
+ "shuf0": {
+  "n": 4,
+  "survival_mean": 5.478571428571429,
+  "survival_ci": [
+   4.985714285714286,
+   5.9714285714285715
+  ],
+  "kills_mean": 0.25,
+  "kills_ci": [
+   0.0,
+   0.75
+  ],
+  "attack_frac": 0.002607561929595828,
+  "died_frac": 1.0
+ },
+ "shuf1": {
+  "n": 4,
+  "survival_mean": 9.285714285714286,
+  "survival_ci": [
+   7.1,
+   11.471428571428572
+  ],
+  "kills_mean": 1.5,
+  "kills_ci": [
+   0.5,
+   2.5
+  ],
+  "attack_frac": 0.8792307692307693,
+  "died_frac": 1.0
+ },
+ "shuf2": {
+  "n": 4,
+  "survival_mean": 5.478571428571429,
+  "survival_ci": [
+   4.985714285714286,
+   5.9714285714285715
+  ],
+  "kills_mean": 0.25,
+  "kills_ci": [
+   0.0,
+   0.75
+  ],
+  "attack_frac": 0.0,
+  "died_frac": 1.0
+ },
+ "blind": {
+  "n": 8,
+  "survival_mean": 10.460714285714285,
+  "survival_ci": [
+   8.839285714285715,
+   12.832321428571426
+  ],
+  "kills_mean": 2.5,
+  "kills_ci": [
+   1.75,
+   3.625
+  ],
+  "attack_frac": 0.45476271765107545,
+  "died_frac": 1.0
+ },
+ "noconn": {
+  "n": 8,
+  "survival_mean": 5.503571428571428,
+  "survival_ci": [
+   5.239285714285714,
+   5.757142857142857
+  ],
+  "kills_mean": 0.375,
+  "kills_ci": [
+   0.125,
+   0.75
+  ],
+  "attack_frac": 0.0,
+  "died_frac": 1.0
+ },
+ "spray_t0_f0": {
+  "n": 16,
+  "survival_mean": 6.105357142857143,
+  "survival_ci": [
+   5.6285267857142856,
+   6.666071428571429
+  ],
+  "kills_mean": 1.625,
+  "kills_ci": [
+   1.1875,
+   2.0625
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t0_f10": {
+  "n": 16,
+  "survival_mean": 8.591071428571428,
+  "survival_ci": [
+   7.646428571428571,
+   9.575
+  ],
+  "kills_mean": 1.625,
+  "kills_ci": [
+   1.0,
+   2.25
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t0_f20": {
+  "n": 16,
+  "survival_mean": 9.626785714285715,
+  "survival_ci": [
+   8.471428571428572,
+   10.887544642857142
+  ],
+  "kills_mean": 1.875,
+  "kills_ci": [
+   1.3125,
+   2.4375
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t1_f0": {
+  "n": 16,
+  "survival_mean": 5.683928571428572,
+  "survival_ci": [
+   5.35,
+   6.000044642857143
+  ],
+  "kills_mean": 0.9375,
+  "kills_ci": [
+   0.5625,
+   1.3125
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t1_f10": {
+  "n": 16,
+  "survival_mean": 26.701785714285712,
+  "survival_ci": [
+   21.914285714285715,
+   31.433973214285714
+  ],
+  "kills_mean": 6.6875,
+  "kills_ci": [
+   5.0,
+   8.4375
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t1_f20": {
+  "n": 16,
+  "survival_mean": 53.4375,
+  "survival_ci": [
+   48.808258928571426,
+   57.31428571428571
+  ],
+  "kills_mean": 13.25,
+  "kills_ci": [
+   11.625,
+   14.8125
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 0.5
+ },
+ "spray_t2_f0": {
+  "n": 16,
+  "survival_mean": 5.4642857142857135,
+  "survival_ci": [
+   5.182142857142857,
+   5.762499999999999
+  ],
+  "kills_mean": 0.25,
+  "kills_ci": [
+   0.0625,
+   0.5
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t2_f10": {
+  "n": 16,
+  "survival_mean": 9.653571428571428,
+  "survival_ci": [
+   8.287500000000001,
+   10.992857142857144
+  ],
+  "kills_mean": 2.625,
+  "kills_ci": [
+   2.0625,
+   3.1875
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t2_f20": {
+  "n": 16,
+  "survival_mean": 21.089285714285715,
+  "survival_ci": [
+   16.55,
+   26.076830357142853
+  ],
+  "kills_mean": 5.0625,
+  "kills_ci": [
+   3.375,
+   7.0
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t4_f0": {
+  "n": 16,
+  "survival_mean": 5.280357142857143,
+  "survival_ci": [
+   5.058928571428572,
+   5.5267857142857135
+  ],
+  "kills_mean": 0.25,
+  "kills_ci": [
+   0.0,
+   0.5625
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t4_f10": {
+  "n": 16,
+  "survival_mean": 7.601785714285715,
+  "survival_ci": [
+   6.732142857142858,
+   8.517901785714285
+  ],
+  "kills_mean": 1.5,
+  "kills_ci": [
+   1.0625,
+   1.9375
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_t4_f20": {
+  "n": 16,
+  "survival_mean": 11.408928571428572,
+  "survival_ci": [
+   9.394642857142857,
+   13.591116071428573
+  ],
+  "kills_mean": 3.125,
+  "kills_ci": [
+   2.1875,
+   4.125
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 1.0
+ },
+ "spray_matched": {
+  "n": 20,
+  "survival_mean": 51.932857142857145,
+  "survival_ci": [
+   45.31567857142858,
+   57.281964285714274
+  ],
+  "kills_mean": 11.75,
+  "kills_ci": [
+   9.65,
+   13.7
+  ],
+  "attack_frac": 1.0,
+  "died_frac": 0.35
+ },
+ "shuffled (3 seeds pooled)": {
+  "n": 12,
+  "survival_mean": 6.747619047619047,
+  "survival_ci": [
+   5.614166666666667,
+   8.131011904761904
+  ],
+  "kills_mean": 0.6666666666666666,
+  "kills_ci": [
+   0.16666666666666666,
+   1.25
+  ],
+  "attack_frac": 0.4040225829216655,
+  "died_frac": 1.0
+ }
+}

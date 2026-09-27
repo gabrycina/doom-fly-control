@@ -1,0 +1,125 @@
+{
+ "crf": 25,
+ "poster_frame": 75,
+ "doom_title": "shuffle the fly brain's wiring. it still plays doom.",
+ "doom_sub": "same network, same training, same test games. the only difference is which neuron connects to which.",
+ "labels": {
+  "real": [
+   "real wiring",
+   "MaleCNS fly connectome, 49k neurons, 9M connections"
+  ],
+  "shuf0": [
+   "wiring shuffled",
+   "same neurons, same degrees and signs, random partners"
+  ],
+  "noconn": [
+   "no connectome",
+   "neuron layer deleted: conv net + MLP only"
+  ]
+ },
+ "doom_avg": {
+  "real": [
+   19.08,
+   18.69,
+   19.46
+  ],
+  "shuf0": [
+   19.56,
+   19.18,
+   19.94
+  ],
+  "noconn": [
+   19.29,
+   18.86,
+   19.71
+  ]
+ },
+ "doom_footer": "published doomfly-rl checkpoints (nonatofabio), trained by distillation from PPO teachers. ViZDoom defend the center, 2.5x speed. game #1 of 100 for every arm, not picked. averages are kills over 100 seed-matched games.",
+ "duo": {
+  "arms": [
+   "real",
+   "spray_matched"
+  ],
+  "speed": 5,
+  "game_secs": 30,
+  "title": "the untrained spiking fly: 166,700 neurons, 25.6M connections",
+  "sub": "no learning anywhere (nftechie/doomfly). real wiring beats a shuffle, 53 s vs 7 s alive. but its output is a near-constant 'circle and hold fire'. a 3-number autopilot with no brain does the same.",
+  "labels": [
+   "166,700-neuron fly, real wiring",
+   "no brain: turn 0.81, forward 19.2, fire"
+  ],
+  "colors": [
+   [
+    57,
+    135,
+    229
+   ],
+   [
+    25,
+    158,
+    112
+   ]
+  ],
+  "footer": "combat_survival arena from the doomfly repo, round 1 (seed 5000) for both, first 30 s of game time. autopilot values are the fly's own average commands."
+ },
+ "static": [
+  {
+   "img": "video/chart_a1.png",
+   "secs": 5.5,
+   "title": "trained fly network: all 5 scenarios, 100 games each",
+   "sub": "shuffled or deleted wiring scores the same as the real wiring everywhere. scramble the wiring after training (grey) and it breaks, so the net uses its wiring, it just doesn't care which one.",
+   "footer": "bars: mean, lines: 95% bootstrap CI, 100 seed-matched games per arm per scenario. no gap favours the real wiring; the largest is the shuffle +0.5 kills on defend the center."
+  },
+  {
+   "img": "video/chart_a2.png",
+   "secs": 5.5,
+   "title": "untrained spiking fly: shuffle breaks it, no brain matches it",
+   "sub": "the wiring matters for keeping the hand-picked readout neurons firing, not for seeing or aiming. the readouts were picked on the real wiring, which favours it.",
+   "footer": "rounds capped at 60 s game time. eyes off = the repo's own blank-vision condition. autopilot = constant turn/forward, fire held; a grid of 12 untuned constants also hit 53 s (turn 1, forward 20)."
+  },
+  {
+   "img": "video/chart_b.png",
+   "secs": 6.5,
+   "title": "what the wiring actually does: taste, no machine learning",
+   "sub": "Shiu et al. 2024 whole-brain LIF model (FlyWire). stimulate 21 sugar-taste neurons: the proboscis motor neuron fires. same model on shuffled wiring: silence.",
+   "footer": "unmodified Brian2 model, only the connectivity file swapped (in/out degree and sign kept). the shuffled brain is also quieter overall (70 vs 428 active neurons). bitter taste on real wiring: MN9 silent, as in the paper."
+  }
+ ],
+ "end": {
+  "secs": 3.5,
+  "footer": "code, data hashes and every number: REPORT.md. doomfly-rl's author ran a 10-game version of this control first; this reruns it at 100 games and adds the spiking fly.",
+  "lines": [
+   [
+    "doom fly: a shuffled wiring, or no brain at all, plays just as well.",
+    50,
+    true,
+    [
+     255,
+     255,
+     255
+    ]
+   ],
+   [
+    "taste to feeding in a fly brain model: shuffle the wiring and the behaviour is gone.",
+    50,
+    true,
+    [
+     57,
+     135,
+     229
+    ]
+   ],
+   [
+    "the connectome is a real circuit. it just isn't what's playing doom.",
+    36,
+    false,
+    [
+     195,
+     194,
+     183
+    ]
+   ]
+  ]
+ },
+ "doom_speed": 2.5
+}

@@ -1,0 +1,30 @@
+{
+ "n": 49393,
+ "edges": 9050172,
+ "synapses": 49280288,
+ "seed0": {
+  "edges": 9050125,
+  "dropped": 47,
+  "indeg_exact": false,
+  "outdeg_exact": false,
+  "frac_edges_also_in_real": 0.013130205383903536
+ },
+ "seed1": {
+  "edges": 9050126,
+  "dropped": 46,
+  "indeg_exact": false,
+  "outdeg_exact": false,
+  "frac_edges_also_in_real": 0.013124679148113518
+ },
+ "seed2": {
+  "edges": 9050133,
+  "dropped": 39,
+  "indeg_exact": false,
+  "outdeg_exact": false,
+  "frac_edges_also_in_real": 0.013179143334136636
+ },
+ "malecns49k_v2_final_log_gain_len": 9050172,
+ "malecns49k_v2_final_frac_edges_in_real": 1.0,
+ "malecns49k_shuffled_s0_log_gain_len": 9050125,
+ "malecns49k_shuffled_s0_frac_edges_in_real": 0.013130205383903536
+}

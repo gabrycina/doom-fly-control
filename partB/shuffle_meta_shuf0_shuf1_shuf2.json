@@ -1,0 +1,20 @@
+{
+ "shuf0": {
+  "rows_real": 14687178,
+  "rows_shuffled": 14685492,
+  "dropped_duplicates": 1686,
+  "frac_pairs_also_in_real": 0.006180317281845238
+ },
+ "shuf1": {
+  "rows_real": 14687178,
+  "rows_shuffled": 14685482,
+  "dropped_duplicates": 1696,
+  "frac_pairs_also_in_real": 0.006194280855064887
+ },
+ "shuf2": {
+  "rows_real": 14687178,
+  "rows_shuffled": 14685527,
+  "dropped_duplicates": 1651,
+  "frac_pairs_also_in_real": 0.006162529952108631
+ }
+}

@@ -1,0 +1,4 @@
+{"arm": "shuf1", "episode": 0, "seed": 5000, "died": true, "survival_s": 11.142857142857142, "kills": 2, "kills_per_min": 10.76923076923077, "attack_tics": 340, "moving_tics": 389, "tics": 390, "spikes": 15263546, "wall": 278.1}
+{"arm": "shuf1", "episode": 1, "seed": 5001, "died": true, "survival_s": 7.9714285714285715, "kills": 1, "kills_per_min": 7.526881720430107, "attack_tics": 252, "moving_tics": 278, "tics": 279, "spikes": 10887761, "wall": 171.8}
+{"arm": "shuf1", "episode": 2, "seed": 5002, "died": true, "survival_s": 11.8, "kills": 3, "kills_per_min": 15.254237288135592, "attack_tics": 356, "moving_tics": 412, "tics": 413, "spikes": 16137329, "wall": 226.6}
+{"arm": "shuf1", "episode": 3, "seed": 5003, "died": true, "survival_s": 6.228571428571429, "kills": 0, "kills_per_min": 0.0, "attack_tics": 195, "moving_tics": 217, "tics": 218, "spikes": 8540986, "wall": 113.9}
